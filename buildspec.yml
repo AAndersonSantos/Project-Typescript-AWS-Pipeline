@@ -11,4 +11,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: dist # Aponte para a pasta 'dist' que será gerada
+  base-directory: '.' # Aponte para a pasta 'dist' que será gerada
