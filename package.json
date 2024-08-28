@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run start:dev",
+    "start": "node dist/app.js",
     "start:dev": "nodemon --watch src --exec ts-node src/app.ts -e ts",
     "start:prod": "node dist/app.js",
     "lint": "eslint .",
