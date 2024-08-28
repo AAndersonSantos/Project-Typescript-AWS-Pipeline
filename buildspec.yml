@@ -8,11 +8,7 @@ phases:
     commands:
       - npm run build
 
-post_build:
-  commands:
-    - echo Removing unnecessary files...
-    - rm -rf node_modules/
 artifacts:
-  base-directory: '.'
   files:
     - '**/*'
+  base-directory: dist # Aponte para a pasta 'dist' que será gerada
