@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && npm run copy-files",
-    "copy-files": "cp package.json dist/ && cp package-lock.json dist/",
+    "build": "tsc",
     "start": "node dist/app.js",
     "start:dev": "nodemon --watch src --exec ts-node src/app.ts -e ts",
     "start:prod": "node dist/app.js",
